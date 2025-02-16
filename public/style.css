@@ -1,0 +1,135 @@
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.title{
+    font-size: 32px;
+    margin: 24px 0 20px 0;
+    color: #2d333a;
+    width: 320px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.entry-form{
+    position: relative;
+    margin-bottom: 5px;
+    width: 320px;
+    box-sizing: content-box;
+}
+.entry-form input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 320px;
+    padding: 5px 5px 5px 15px;
+    /* padding-left: 15px; */
+    margin-bottom: 20px;
+    border: 2px solid #10A37F;
+    border-radius: 10px;
+}
+.entry-form button{
+    width: 320px;
+    padding: 5px;
+    color: white;
+    background-color: #10A37F;
+    margin-bottom: 5px;
+    border: 2px solid #10A37F;
+    border-radius: 10px;
+}
+.other-page{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    width: 320px;
+}
+.div-wrapper{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    padding: 24px 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    vertical-align: baseline;
+}
+.left{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: .5em;
+    margin: 0;
+}
+.divider{
+    text-align: center;
+    flex: .2 0 auto;
+    margin: 0;
+    height: 12px;
+}
+.right{
+    content: "";
+    border-bottom: 1px solid #c2c8d0;
+    flex: 1 0 auto;
+    height: .5em;
+    margin: 0;
+}
+.social-section{
+    margin-top: 24px;
+}
+.social-btn{
+    position: relative;
+    width: 320px;
+    border: 1px solid #c2c8d0;
+    border-radius: 6px;
+    font-size: 16px;
+    align-items: center;
+    background-color: #fff;
+    height: 52px;
+    transition: box-shadow .15 ease-in-out, background-color .15s ease-in-out;
+    cursor: pointer;
+    color: #2d333a;
+    margin-bottom: 8px;
+    display: flex;
+    outline: 0;
+}
+.social-logo-wrapper{
+    font-size: 15px;
+    display: inline-block;
+}
+.social-text{
+    box-sizing: border-box;
+}
+
+.footer{
+    text-align: center;
+    padding: 12px 0 24px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6e6e80;
+    flex: 0 0 auto;
+}
+.footer a{
+    font-weight: 400;
+    text-decoration: inherit;
+    color: #10a37f;
+}
+.seprator{
+    color: black;
+    margin: 0 8px;
+}
